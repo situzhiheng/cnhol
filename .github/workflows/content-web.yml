@@ -17,6 +17,7 @@ env:
   resourceGroupName: 'cloudnativelabs'
   containerRegistryName: 'fabmedicalhol'
   containerRegistry: 'fabmedicalhol.azurecr.io'
+  clusterName: 'fabmedical-hol'
   dockerfilePath: './content-web'
   tag: '${{ github.run_id  }}'
 
